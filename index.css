@@ -198,11 +198,12 @@ form div label {
   font-size: 15px;
   position: unset;
 }
-#footer .col {
-  flex: unset;
+#footer div {
+  align-items: start!important;
 }
 #footer {
   justify-content: start!important;
+  flex-direction: column;
 }
 }
 @media screen and (min-width: 500px) and (max-width: 650px) {
