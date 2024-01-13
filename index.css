@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  scroll-padding-top: 100px;
+  scroll-behavior: smooth;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+#background-image {
+  filter: contrast(50%);
+}
+#nav {
+  z-index: 999;
+  background-color: whitesmoke;
+}
+
+#back-bton:hover {
+  background-color: white;
+  filter: contrast(80%);
+}
+#back-btn {
+  background-color: transparent;
+  border: 2px solid black;
+}
+#back-btn:hover {
+  background-color: lightgrey;
+  border: 2px solid gray;
+  color: red;
+  filter: contrast(50%);
+}
+
+.image-icon {
+  height: 200px;
+  width: 200px;
+  transition: transform 1s;
+}
+
+.image-icon:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  border-radius: 10px;
+  /* transform: translate(5px);
+     */
+  transform: scale(0.8);
+  background-color: transparent;
+}
+.icon-image {
+  height: 80px;
+  width: 80px;
+}
+#icon-row {
+  padding: 30px !important;
+}
+#Facility-row {
+  padding: 100px 10px 10px 10px;
+  background-color: rgba(211, 211, 211, 0.381);
+  /* gap:100px; */
+}
+#Facility-row1 {
+  padding: 50px 10px;
+  background-color: rgba(211, 211, 211, 0.381);
+  /* gap:100px; */
+}
+#Facility-div {
+  height: 350px;
+  width: 500px;
+}
+.Facility-para {
+  font-size: 20px;
+}
+.gym-box {
+  height:200px;
+  width:300px;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.gym-box img {
+  border-radius: 10px;
+}
+.gym-box img:hover {
+  transform: scale(1.1);
+}
+/* contact us */
+#contact-us {
+  height:800px;
+  width:400px;
+}
+form div {
+  position: relative;
+}
+form div input {
+  width:500px;
+  height:50px;
+  font-size: 20px;
+  padding:0px 20px;
+  border:2px solid black;
+  outline: 0;
+  border-radius: 10px;
+}
+form div label {
+  position: absolute;
+  top:-10px;
+  left:21px;
+  background-color: #fff;
+  font-size: 18px;
+}
+form div input:focus {
+  border:2px solid crimson;
+}
+form button {
+  padding:8px 50px;
+  outline: none;
+  border: none;
+  background-color: crimson;
+  color: white;
+  border-radius: 30px   ;
+}
+::placeholder {
+  font-weight: 200;
+}
+#footer p {
+  font-size: 18px;
+  font-weight: 500;
+  color:darkgray;
+  cursor: pointer;
+  text-align: center;
+}
+#footer p:hover {
+  color:black;
+}
+#footer div {
+  width:300px!important;
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  #back-para {
+    width: 100% !important;
+    font-size: 16px !important;
+    padding: 0px 10px;
+  }
+  #back-head {
+    padding-top: 40px;
+  }
+  #back-bton,
+  #back-btn {
+    padding: 5px 20px !important;
+    font-size: 11px !important;
+  }
+   #Facility-row,#Facility-row1{
+    padding: 50px 0px;
+    gap: 50px;
+  }
+  #Facility-div {
+    height: 200px;
+    width: 300px;
+  } */
+  .Facility-head {
+    text-align: center!important;
+  } 
+  #slider {
+    height: 35vh !important;
+  }
+  #contact-us {
+    height: 400px;
+    width: 400px;
+}
+#contact-container{
+  padding-right: 0!important;
+  padding-left: 0!important;
+  flex-direction: column;
+  gap:50px;
+}
+form div input {
+  width: 100%;
+}
+form div label {
+  font-size: 15px;
+  position: unset;
+}
+#footer .col {
+  flex: unset;
+}
+#footer {
+  justify-content: start!important;
+}
+}
+@media screen and (min-width: 500px) and (max-width: 650px) {
+  #footer {
+    justify-content: start!important;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  #back-para {
+    width: 80% !important;
+    font-size: 20px !important;
+    padding: 0px 10px;
+  }
+  #back-head {
+    padding-top: 40px;
+  }
+  #back-bton,
+  #back-btn {
+    padding: 5px 20px !important;
+    font-size: 16px !important;
+  }
+  #icon-row {
+    gap: 20px !important;
+  }
+   #Facility-row {
+    padding: 50px 0px;
+    gap: 50px;
+  }
+  #Facility-row1 {
+    padding: 50px 0px;
+    gap: 50px;
+  }
+  .Facility-head {
+    text-align: center;
+  } 
+  #Facility-row  {
+    display: flex;
+  }
+  #slider {
+    height: 60vh !important;
+  }
+  #contact-container{
+    padding-right: 0!important;
+    padding-left: 0!important;
+    flex-direction: column;
+    gap:50px;
+  }
+  form div input {
+    width: 500px;
+  }
+  #footer .col {
+    flex: unset;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  #back-para {
+    width: 80% !important;
+    font-size: 20px !important;
+    padding: 0px 10px;
+  }
+  #back-head {
+    padding-top: 50px;
+  }
+  .Facility-para {
+    width: 90% !important;
+  }
+  form div input {
+    width: 400px;
+  }
+  #contact-us {
+    height: 600px;
+    width: 400px;
+}
+  
+}
+@media screen and (min-width: 1000px) and (max-width: 1250px) {
+  #icon-row {
+    flex-direction: row !important;
+    /* gap: unset!important; */
+    flex-wrap: unset !important;
+  }
+  .image-icon {
+    width: 150px !important;
+  }
+}
+@media (min-width: 1200px) {
+.col-xl {
+   flex: unset;
+}
+}
